@@ -39,7 +39,7 @@
             border-bottom: 2px solid #003366;
             padding-bottom: 5px;
         }
-       .container {
+        .container {
             max-width: 800px;
             margin: 20px auto;
             /* White background with 92% opacity to show mountains while keeping text readable */
@@ -55,13 +55,13 @@
         li {
             margin-bottom: 15px;
         }
-       .pricing-box {
+        .pricing-box {
             background-color: rgba(230, 242, 255, 0.95);
             padding: 20px;
             border-left: 5px solid #003366;
             margin: 30px 0;
         }
-       .about-me {
+        .about-me {
             display: flex;
             align-items: center;
             gap: 25px;
@@ -69,7 +69,7 @@
             padding-top: 20px;
             border-top: 2px solid #cccccc;
         }
-       .profile-photo {
+        .profile-photo {
             width: 300px;
             height: 150px;
             border-radius: 0%; /* Makes the photo a circle */
@@ -77,7 +77,7 @@
             object-position: center top;
             border: 3px solid #003366;
         }
-       .booking-section {
+        .booking-section {
             text-align: center;
             margin-top: 40px;
             padding-top: 20px;
@@ -86,7 +86,7 @@
         
         /* Ensures the About Me section stacks nicely on mobile phones */
         @media (max-width: 600px) {
-           .about-me {
+            .about-me {
                 flex-direction: column;
                 text-align: center;
             }
@@ -109,8 +109,8 @@
         <li><strong>Device Setup:</strong> Getting your new computer, tablet, or smartphone ready to use.</li>
         <li><strong>Fixing Issues:</strong> Troubleshooting slow Wi-Fi, printer problems, and confusing error messages.</li>
         <li><strong>Online Safety and Virus Removal:</strong> Removing viruses, fixing fake pop-ups, and managing your passwords securely.</li>
-        <p><strong>And any other software issues you might be struggling with!</p>
     </ul>
+    <p><strong>And any other software issues you might be struggling with!</strong></p>
 
     <div class="pricing-box">
         <h2>Simple, Honest Pricing</h2>
@@ -135,15 +135,15 @@
         <h2>Schedule Your Appointment</h2>
         <p>Please select a time below that works best for you and be sure to include the issue I will be assisting you with in the appointment notes section during booking.</p>
         
-        <div id="square-booking-widget-container">
-            <p><em><!-- Start Square Appointments Embed Code --><script src='https://square.site/appointments/buyer/widget/s7pxt2lnvlj20i/L626A19S8Z9HP.js'></script><!-- End Square Appointments Embed Code --></em></p>
+        <div id="setmore-booking-widget-container">
+            <!-- Start Setmore Appointments Embed Code -->
+            <script id="anywhere_book_now_script" src="https://assets.setmore.com/integration/book-now/live/v1/anywhere-book-now.js"></script>
+            <button id="Anywhere_button_iframe" class="anywhere-book-now-button" style=" background-color: #000; color: #fff; border: none; padding: 12px 18px; font-size: 14px; font-weight: 600; border-radius: 6px; cursor: pointer; " data-booking-url="https://sahuaritamobiletechsupport.setmore.com" data-new-tab="false"> Book now </button>
+            <!-- End Setmore Appointments Embed Code -->
         </div>
         
     </div>
 </div>
 
 </body>
-
 </html>
-
-
